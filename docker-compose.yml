@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   nav-app:
-    image: registry.cn-guangzhou.aliyuncs.com/yoy/nav:1.0.0
+    image: registry.cn-guangzhou.aliyuncs.com/yoy/nav:1.0.2
     ports:
       - "3000:3000"
       - "7001:7001"

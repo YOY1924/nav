@@ -140,14 +140,6 @@ const TAG_ID_NAME3 = 'Github'
   settings.checkUrl ??= false
   settings.superTitle ??= ''
   const defImgs = [
-    {
-      src: 'https://cdn.jsdelivr.net/gh/xjh22222228/nav-web@image/nav-1717494364392-ad.jpg',
-      url: 'https://haokawx.lot-ml.com/Product/index/454266',
-    },
-    {
-      src: 'https://cdn.jsdelivr.net/gh/xjh22222228/public@gh-pages/img/10.png',
-      url: '',
-    },
   ]
   settings.superImages ??= defImgs
   settings.lightImages ??= defImgs

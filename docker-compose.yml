@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  nav-app:
+    image: yoy/nav:1.0.0
+    ports:
+      - "3000:3000"
+      - "7001:7001"
+    volumes:
+      - ./:/app/nav
+    environment:
+      - NODE_ENV=development
+

@@ -71,6 +71,7 @@ async function buildSeo() {
 }
 
 async function build() {
+  return
   const htmlPath = path.join('.', 'src', 'main.html')
   const writePath = path.join('.', 'src', 'index.html')
   let t = fs.readFileSync(htmlPath).toString()

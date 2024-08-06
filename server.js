@@ -3,7 +3,7 @@
 
 // 只需要修改这两行代码
 // 拉下来的仓库位置，填写绝对路径
-const DEPLOY_DIR = '/www/nav'
+const DEPLOY_DIR = '/app/nav'
 // 启动端口
 const PORT = 7777
 
